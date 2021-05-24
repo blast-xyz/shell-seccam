@@ -1,10 +1,13 @@
 while : ; do
 
-echo -e '
+echo -e "\033[32;40;1m
+CCTV türkiye, Güvenlik kamerası hack
+0. Scriptten Çıkış.
 1. istanbul
 2. ankara
 3. izmir
-4. bursa'
+4. bursa
+"
 read -p "numara seçiniz: " numara
 
 if [[ $numara == 1 ]]; then
