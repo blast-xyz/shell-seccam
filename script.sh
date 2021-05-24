@@ -31,7 +31,7 @@ echo -e '
 = http://85.109.189.153:60001/
 = http://212.174.229.69:5000/ '
 
-if [[ $numara == 2 ]]; then
+elif [[ $numara == 2 ]]; then
 
 echo -e '
 = http://78.187.88.102:60001/
@@ -45,7 +45,7 @@ echo -e '
 = http://185.71.119.206:60001/
 = http://78.187.88.102:60001/ '
 
-if [[ $numara == 3 ]]; then
+elif [[ $numara == 3 ]]; then
 
 echo -e '
 
@@ -56,7 +56,7 @@ echo -e '
 = http://185.108.124.10:8084/
 = http://95.6.83.17:5000/ '
 
-if [[ $numara == 4 ]]; then
+elif [[ $numara == 4 ]]; then
 
 echo -e '
 = http://88.248.162.34:60001/
