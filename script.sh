@@ -1,4 +1,10 @@
 while : ; do
+
+echo -e '
+1. istanbul
+2. ankara
+3. izmir
+4. bursa'
 read -p "numara seçiniz: " numara
 
 if [[ $numara == 1 ]]; then
